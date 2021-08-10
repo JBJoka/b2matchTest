@@ -1,0 +1,12 @@
+.desc-visible{
+    display: block;
+    border: 1px solid black;
+}
+
+.desc-hidden {
+    display: none;
+}
+
+p :hover {
+    cursor: pointer;
+}
