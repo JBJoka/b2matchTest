@@ -8,8 +8,8 @@ const Player = ({data}) => {
     return (
         <li> 
             <p>
-                {data.first_name} {data.last_name} | 
-                {visible ? <a onClick={() => setVisible(false)}>-</a> : <a onClick={() => setVisible(true)}>+</a>}
+                {data.first_name} {data.last_name}
+                {visible ? <a className="btn btn-danger" onClick={() => setVisible(false)}>less</a> : <a className="btn btn-success" onClick={() => setVisible(true)}>more</a>}
             </p>
             <div className={visible ? "desc-visible" : "desc-hidden"} >
                 <p>Position: {data.position}</p>

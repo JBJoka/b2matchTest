@@ -1,12 +1,23 @@
 .desc-visible{
+    color: white;
     display: block;
-    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #293241;
 }
 
 .desc-hidden {
     display: none;
 }
 
-p :hover {
-    cursor: pointer;
+a.btn.btn-success {
+    margin-left: 10px;
+    padding: 0 !important;
+    width: 50px !important;
+}
+
+a.btn.btn-danger {
+    margin-left: 10px;
+    padding: 0 !important;
+    width: 50px !important;
 }

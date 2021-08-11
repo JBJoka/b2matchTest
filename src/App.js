@@ -25,12 +25,14 @@ function App() {
 
   return (
     <div className="container">
-      <div>
+      <div className="header">
         <h1 className="display-3">List of players</h1>
+        <div className="image"></div>
+      </div>
+        <hr className="display-3"/>
         <ul>
           {playersList}
         </ul>
-      </div>
     </div>
   );
 }
